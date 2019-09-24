@@ -1,6 +1,4 @@
 <?php 
 
-include('app/Models/User.php');
+require 'vendor/autoload.php';
 
-$user = new User;
-var_dump($user);
